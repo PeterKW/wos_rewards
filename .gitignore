@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+captcha_images/
+redeemed_codes.txt
+*.log
+.env
