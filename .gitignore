@@ -4,3 +4,6 @@ captcha_images/
 redeemed_codes.txt
 *.log
 .env
+
+# Android trash / file manager leftovers
+.trashed*
