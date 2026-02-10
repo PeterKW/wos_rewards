@@ -14,7 +14,6 @@ sed -i \
 -e 's/^import ddddocr/# import ddddocr (disabled for Termux)/' \
 -e 's/^import numpy as np/# import numpy as np (disabled for Termux)/' \
 -e 's/^from PIL import/# from PIL import (disabled for Termux)/' \
--e 's/^\(\s*\)if .*ocr.*:$/\1if False:  # OCR disabled for Termux\n\1    pass/' \
 -e "s/choices=ocr_choices/choices=['none']/" \
 -e "s/default=default_ocr/default='none'/" \
 -e 's/print("Warning: Input .*")/# Warning suppressed for Termux/g' \

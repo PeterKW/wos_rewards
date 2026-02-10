@@ -1,3 +1,17 @@
+# ------------------------------------------------------------
+
+# TERMUX COMPATIBILITY PATCH
+
+# - OCR libraries disabled (opencv, ddddocr, PIL, numpy)
+
+# - OCR method forced to "none"
+
+# - CSV validation relaxed to allow .txt files
+
+# - Warnings suppressed for Termux environment
+
+# ------------------------------------------------------------
+
 #!/usr/bin/env python3
 # Whiteout Gift Code Redeemer Script Version 3.0.0
 # Refactored to provide 3 different options for OCR
