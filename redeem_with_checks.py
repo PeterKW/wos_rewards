@@ -53,7 +53,7 @@ import argparse
 import subprocess
 from pathlib import Path
 
-REDEEM_SCRIPT = "redeem_codes.py"
+REDEEM_SCRIPT = "redeem_enhanced_full_history.py"
 
 def main():
     parser = argparse.ArgumentParser()
